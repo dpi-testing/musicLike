@@ -3,13 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.1"
 
-gem 'http', '~> 3.0'
+gem 'http'
 
 gem "sinatra"
 gem "sinatra-contrib"
 
 # Use Puma as the app server
-gem "puma", "~> 5.0"
+gem "puma"
 
 # use active record
 gem "sinatra-activerecord"
@@ -24,7 +24,7 @@ end
 group :development, :test do
   gem "grade_runner"
   gem "pry"
-  gem "sqlite3", "~> 1.4"
+  gem "sqlite3"
 end
 
 group :test do

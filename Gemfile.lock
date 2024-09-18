@@ -179,16 +179,16 @@ DEPENDENCIES
   capybara
   draft_matchers
   grade_runner
-  http (~> 3.0)
+  http
   i18n
   pry
-  puma (~> 5.0)
+  puma
   rspec
   rspec-html-matchers
   sinatra
   sinatra-activerecord
   sinatra-contrib
-  sqlite3 (~> 1.4)
+  sqlite3
   table_print
   webdrivers
   webmock
